@@ -346,7 +346,7 @@ async def repozedub(event):
     TG_BOT = Config.TG_BOT_USERNAME
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await zedub.inline_query(TG_BOT, "زدثون")
+    response = await zedub.inline_query(TG_BOT, "كرستين")
     await response[0].click(event.chat_id)
     await event.delete()
 
