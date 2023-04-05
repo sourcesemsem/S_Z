@@ -64,7 +64,7 @@ async def lg1(userevent):
         logo_ = await rply.download_media()
     else: # code by t.me/zzzzl1l
         async for i in bot.iter_messages(
-            "@Z_44_Z", filter=InputMessagesFilterPhotos
+            "@CU_VC", filter=InputMessagesFilterPhotos
         ):
             PICS_STR.append(i)
         pic = random.choice(PICS_STR)
