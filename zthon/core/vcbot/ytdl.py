@@ -7,8 +7,8 @@
 
 from youtubesearchpython import VideosSearch
 
-from userbot import LOGS
-from userbot.utils import bash
+from zthon import LOGS
+from zthon.utils import bash
 
 
 def ytsearch(query: str):
