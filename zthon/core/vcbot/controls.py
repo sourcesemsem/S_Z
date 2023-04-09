@@ -14,8 +14,8 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 
-from userbot import LOGS, call_py
-from userbot.core.vcbot.queues import QUEUE, clear_queue, get_queue, pop_an_item
+from zthon import LOGS, call_py
+from zthon.core.vcbot.queues import QUEUE, clear_queue, get_queue, pop_an_item
 
 
 async def skip_item(chat_id: int, x: int):
