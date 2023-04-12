@@ -127,13 +127,12 @@ async def mybot():
         print("تم تشغيل البوت بنجــاح")
     else:
         try:
-            await await bot.send_message("@BotFather", "/setinline")
+            zedub.send_message("@BotFather", "/setinline")
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", botname)
+            await zedub.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "avtar")
-            await asyncio.sleep(3)
-
+            await zedub.send_message("@BotFather", "سيمو")
+            await asyncio.sleep(2)
         except Exception as e:
             print(e)
 
