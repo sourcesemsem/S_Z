@@ -127,7 +127,7 @@ async def mybot():
         print("تم تشغيل البوت بنجــاح")
     else:
         try:
-            zedub.send_message("@BotFather", "/setinline")
+            await zedub.send_message("@BotFather", "/setinline")
             await asyncio.sleep(2)
             await zedub.send_message("@BotFather", botname)
             await asyncio.sleep(2)
