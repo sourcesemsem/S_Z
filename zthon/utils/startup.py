@@ -127,16 +127,17 @@ async def mybot():
         print("تم تشغيل البوت بنجــاح")
     else:
         try:
-            zedub.send_message("@BotFather", "/setinline")
+            await bot.send_message("@BotFather", "/setinline")
             await asyncio.sleep(1)
-            await zedub.send_message("@BotFather", botname)
+
+            await bot.send_message("@BotFather", botname)
+
             await asyncio.sleep(1)
-            await zedub.send_message("@BotFather", "سيمو")
-            await asyncio.sleep(2)
-        except Exception as e:
-            print(e)
 
+            await bot.send_message("@BotFather", "semo")
 
+                 except Exception as e:
+                 print(e)
 
 async def add_bot_to_logger_group(chat_id):
     """
