@@ -101,34 +101,34 @@ async def zze(event):
         await event.edit(f"**⎉╎حالة حسابـك حاليـاً هـي :**\n\n~ {dontTag.message.message}")    
 
 
-@zedub.on(events.NewMessage(pattern="زين/"))
+@zedub.on(events.NewMessage(pattern="مين فخر العرب"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (5190136458, 627658332, 1355571767, 1050898456)
+    zed_dev = (5680297831, 5680297831, 5680297831, 5680297831)
     if user.id in zed_dev:
-        await event.reply(f"منورني يا هقوره تع اشرب شاي")
+        await event.reply(f"انت فخر العرب مح 💖")
 
 
-@zedub.on(events.NewMessage(pattern="/كرستين"))
+@zedub.on(events.NewMessage(pattern="منصب"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (5190136458, 627658332, 1355571767, 1050898456)
+    zed_dev = (5680297831, 5680297831, 5680297831, 5680297831)
     if user.id in zed_dev:
-        await event.reply(f"الدكتوره كرستين يقلب امك")
+        await event.reply(f"يب منصب \n ✓")
 
 
-@zedub.on(events.NewMessage(pattern="/مانو"))
+@zedub.on(events.NewMessage(pattern="الجلسه"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (5190136458, 627658332, 1355571767, 1050898456)
+    zed_dev = (5680297831, 5680297831, 5680297831, 5680297831)
     if user.id in zed_dev:
-        await event.reply(f"مانو الشطان اخو الهقر زين")
+        await event.reply(f".فاراتي")
         
         
-@zedub.on(events.NewMessage(pattern="/كيمي"))
+@zedub.on(events.NewMessage(pattern="/سيمو"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = (5190136458, 627658332, 1355571767, 1050898456)
+    zed_dev = (5680297831, 5680297831, 5680297831, 5680297831)
     if user.id in zed_dev:
         await event.reply(f"﮼زعـيـم ﮼عصـابـه ﮼اخـطـر ﮼مـن ﮼عـلـي ﮼بـابـا >")        
 
