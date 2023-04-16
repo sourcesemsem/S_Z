@@ -46,7 +46,7 @@ async def _(event):
             await event.client.send_message(event.chat_id, response.message)
 
 
-@bot.on(admin_cmd(pattern="زين ?(.*)"))
+@bot.on(admin_cmd(pattern="سمير ?(.*)"))
 async def _(event):
 
     if event.reply_to_msg_id:
