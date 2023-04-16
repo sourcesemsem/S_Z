@@ -30,7 +30,7 @@ async def _(event):
         ZTHONR = [
             zlzzl
             async for zlzzl in event.client.iter_messages(
-                "@GTTUTY", filter=InputMessagesFilterVideo
+                "@xxgfj", filter=InputMessagesFilterVideo
             )
         ]
         aing = await event.client.get_me()
@@ -429,7 +429,7 @@ async def _(event):
         samir = [
             zlzzl
             async for zlzzl in event.client.iter_messages(
-                "@GTTUTY", filter=InputMessagesFilterVideo
+                "@GTTUTY", filter=InputMessagesFilterPhotos
             )
         ]
         aing = await event.client.get_me()
