@@ -422,3 +422,25 @@ async def _(event):
         await zzevent.edit("**╮•⎚ عـذراً .. لـم استطـع ايجـاد المطلـوب ☹️💔**")
 
 
+@zedub.zed_cmd(pattern="رمزيات شباب$")
+async def _(event):
+    zzevent = await edit_or_reply(event, "**╮•⎚ جـارِ تحميـل حـالات الرمزيات ...**")
+    try:
+        ZTHONR = [
+            zlzzl
+            async for zlzzl in event.client.iter_messages(
+                "@GTTUTY", filter=InputMessagesFilterVideo
+            )
+        ]
+        aing = await event.client.get_me()
+        await event.client.send_file(
+            event.chat_id,
+            file=random.choice(ZTHONR),
+            caption=f"**🎆┊رمزيات شباب قامده 🧸♥️**\n\n[᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆](https://t.me/FTTUTY)",
+        )
+        await zzevent.delete()
+    except Exception:
+        await zzevent.edit("**╮•⎚ عـذراً .. لـم استطـع ايجـاد المطلـوب ☹️💔**")
+
+
+
