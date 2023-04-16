@@ -29,10 +29,10 @@ spam_chats = []
 
 
 # =========================================================== #
-#                           الملـــف كتـــابـــة مـــن الصفـــر - T.me/pp_g3                           #
+#                           الملـــف كتـــابـــة مـــن الصفـــر - T.me/samir                           #
 # =========================================================== #
 Warn = "تخمـط بـدون ذكـر المصـدر - ابلعــك نعــال وراح اهينــك"
-pp_g3_BEST_SOURCE = "[ᯓ سيمو - اذاعـة خـاص 🚹](https://t.me/FTTUTY) .\n\n**- جـارِ الاذاعـه خـاص لـ أعضـاء الكـروب 🛗\n- الرجـاء الانتظـار .. لحظـات ⏳**"
+samir_BEST_SOURCE = "[ᯓ سيمو - اذاعـة خـاص 🚹](https://t.me/FTTUTY) .\n\n**- جـارِ الاذاعـه خـاص لـ أعضـاء الكـروب 🛗\n- الرجـاء الانتظـار .. لحظـات ⏳**"
 # =========================================================== #
 #                                      زلـــزال الهيبـــه - T.me/zzzzl1l                                  #
 # =========================================================== #
@@ -40,8 +40,8 @@ pp_g3_BEST_SOURCE = "[ᯓ سيمو - اذاعـة خـاص 🚹](https://t.me/FT
 
 @zedub.zed_cmd(pattern=f"للكل(?: |$)(.*)", groups_only=True)
 async def malath(event):
-    pp_g3 = event.pattern_match.group(1)
-    if pp_g3:
+    samir = event.pattern_match.group(1)
+    if samir:
         await edit_or_reply(event, "**⎉╎بالـࢪد ؏ــلى ࢪسـالة او وسائـط**")
         return
     elif event.is_reply:
@@ -56,7 +56,7 @@ async def malath(event):
     except UserNotParticipantError:
         pass
     spam_chats.append(chat_id)
-    zelzal = await event.edit(pp_g3_BEST_SOURCE, link_preview=False)
+    zelzal = await event.edit(samir_BEST_SOURCE, link_preview=False)
     total = 0
     success = 0
     async for usr in event.client.iter_participants(event.chat_id):
