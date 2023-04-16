@@ -426,7 +426,7 @@ async def _(event):
 async def _(event):
     zzevent = await edit_or_reply(event, "**╮•⎚ جـارِ تحميـل حـالات الرمزيات ...**")
     try:
-        ZTHONR = [
+        samir = [
             zlzzl
             async for zlzzl in event.client.iter_messages(
                 "@GTTUTY", filter=InputMessagesFilterVideo
@@ -435,7 +435,7 @@ async def _(event):
         aing = await event.client.get_me()
         await event.client.send_file(
             event.chat_id,
-            file=random.choice(ZTHONR),
+            file=random.choice(samir),
             caption=f"**🎆┊رمزيات شباب قامده 🧸♥️**\n\n[᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆](https://t.me/FTTUTY)",
         )
         await zzevent.delete()
