@@ -30,7 +30,7 @@ async def _(event):
         ZTHONR = [
             zlzzl
             async for zlzzl in event.client.iter_messages(
-                "@xxgfj", filter=InputMessagesFilterVideo
+                "@GTTUTY", filter=InputMessagesFilterVideo
             )
         ]
         aing = await event.client.get_me()
