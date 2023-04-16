@@ -36,9 +36,9 @@ from . import spamwatch
 
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
-ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت كرستين"
-ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "𖣐 "
-ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋖⊶≭❂≭⊷⌯𝘾𝙍父𝙏𝞝𝙇𝞝𝙃𝙊𝙉 ⌯⊶≭❂≭⊷⋗"
+ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت سيمو"
+ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "◉ "
+ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "•━━━⊶⛧• ᥉᥆υᖇᥴᥱ ᥉ᥱꪔ᥆ •⛧⊷━━━•"
 
 
 
@@ -106,7 +106,7 @@ async def fetch_info(replied_user, event):
 # الـرتب الوهميـه كتـابـة الكـود - زلــزال الـهيبــه @zzzzl1l
     zed_dev = (5680297831, 1050898456, 5881570606)
     zel_dev = (5680297831, 5881570606, )
-    if user_id == 5680297831 or user_id == 5680297831 or user_id == 1050898456:
+    if user_id == 5680297831 or user_id == 5680297831 or user_id == 6053849424:
         rotbat = "⌁ مالك السـورس 𓄂𓆃 ⌁" 
     elif user_id in zel_dev:
         rotbat = "⌁ مطـور السورس 𐏕⌁" 
@@ -115,8 +115,7 @@ async def fetch_info(replied_user, event):
     else:
         rotbat = "⌁ العضـو 𓅫 ⌁"
 # Copyright (C) 2021 Zed-Thon . All Rights Reserved
-    caption = f"<b> {ZED_TEXT} </b>\n"
-    caption += f"ٴ<b>{ZEDF}</b>\n"
+    caption = f"<b> {ZED_TEXT} </b>\n\n"
     caption += f"<b>{ZEDM}الاسـم    ⇠ </b> "
     caption += f'<a href="tg://user?id={user_id}">{full_name}</a>'
     caption += f"\n<b>{ZEDM}المعـرف  ⇠  {username}</b>"
@@ -124,8 +123,8 @@ async def fetch_info(replied_user, event):
     caption += f"<b>{ZEDM}الرتبـــه   ⇠ {rotbat} </b>\n"
     caption += f"<b>{ZEDM}الصـور    ⇠ </b> {replied_user_profile_photos_count}\n"
     caption += f"<b>{ZEDM}الـمجموعات المشتـركة ⇠ </b> {common_chat} \n"
-    caption += f"<b>{ZEDM}البايـو     ⇠  {user_bio}</b> \n"
-    caption += f"ٴ<b>{ZEDF}</b>"
+    caption += f"<b>{ZEDM}البايـو     ⇠  {user_bio}</b> \n\n"
+    caption = f"<b> {ZED_TEXT} </b>"
     return photo, caption
 
 
