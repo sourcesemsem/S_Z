@@ -44,8 +44,8 @@ from . import SUDO_LIST, edit_delete, edit_or_reply, reply_id, BOTLOG, BOTLOG_CH
 
 LOGS = logging.getLogger(os.path.basename(__name__))
 LOGS1 = logging.getLogger(__name__)
-ZORDR = gvarstatus("Z_ORDR") or "اوامر سيمو"
-ZLORDR = gvarstatus("Z_LORDR") or "اوامر سيمو"
+ZORDR = gvarstatus("Z_ORDR") or "اوامر سمسم"
+ZLORDR = gvarstatus("Z_LORDR") or "اوامر سمسم" 
 ppath = os.path.join(os.getcwd(), "temp", "githubuser.jpg")
 GIT_TEMP_DIR = "./temp/"
 cmdhd = Config.COMMAND_HAND_LER
