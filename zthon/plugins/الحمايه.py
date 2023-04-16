@@ -129,9 +129,7 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
             remwarns=remwarns,
         )
     elif gvarstatus("pmmenu") is None:
-        USER_BOT_NO_WARN = f"""ᯓ 𓏺𝗦َِ𝗼َِ𝘂َِ𝗿َِ𝗰َِ𝗲 َِ𝗰َِ𝗿َِ𝗶َِ𝘀َِ𝘁َِ𝗲َِ𝗻 **- الـرد التلقـائي 〽️**
-**▬ ▭ ▰ ✰𝗦𝗼𝘂𝗿𝗰𝗲 𝗰𝗿𝗶𝘀𝘁𝗲𝗻✰ ▰ ▱ ▬**
-
+        USER_BOT_NO_WARN = f""" 
 ❞ **مرحبـاً**  {mention} ❝
 
 **⤶ قد اكـون مشغـول او غيـر موجـود حـاليـاً ؟!**
@@ -140,8 +138,7 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
 
 **⤶ فقط قل سبب مجيئك وانتظـر الـرد ⏳**"""
     else:
-        USER_BOT_NO_WARN = f"""ᯓ 𓏺𝗦َِ𝗼َِ𝘂َِ𝗿َِ𝗰َِ𝗲 َِ𝗰َِ𝗿َِ𝗶َِ𝘀َِ𝘁َِ𝗲َِ𝗻 **- الـرد التلقـائي 〽️**
-**▬ ▭ ▰ ✰𝗦𝗼𝘂𝗿𝗰𝗲 𝗰𝗿𝗶𝘀𝘁𝗲𝗻✰ ▰ ▱ ▬**
+        USER_BOT_NO_WARN = f"""
 
 ❞ **مرحبـاً**  {mention} ❝
 
