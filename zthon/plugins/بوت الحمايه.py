@@ -535,7 +535,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - zthon" "زلـزال الهيبـه"
-    zed_dev = (5190136458, 627658332, 1050898456)
+    zed_dev = (5680297831, 627658332, 1050898456)
     if not is_locked(event.chat_id, "location"):
         return
     if event.user_joined: 
@@ -580,7 +580,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - ZelZal" "زلـزال الهيبـه"
-    zed_dev = (5190136458, 627658332, 1050898456)
+    zed_dev = (5680297831, 627658332, 1050898456)
     malath = zedub.uid
     if not is_locked(event.chat_id, "bots"):
         return
