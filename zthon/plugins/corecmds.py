@@ -30,7 +30,7 @@ def plug_checker(plugin):
 async def install(event):
     "لـ تنصيب ملفـات اضافيـه."
     zelzal = event.sender_id
-    zed_dev = (5680297831, 5680297831, 6276532, 6053849424, 13555767)
+    zed_dev = (5680297831, 5680297831, 5957205447, 6053849424, 13555767)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     if event.reply_to_msg_id:
@@ -71,7 +71,7 @@ async def install(event):
 async def load(event):
     "لـ تحميـل اي ملف مجـدداً .. اذا كنت قد الغيت تحميله مسبقـاً"
     zelzal = event.sender_id
-    zed_dev = (5680297831, 51136458, 6276332, 6053849424, 1355767)
+    zed_dev = (5680297831, 51136458, 5957205447, 6053849424, 1355767)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     shortname = event.pattern_match.group(1)
@@ -99,7 +99,7 @@ async def load(event):
 async def send(event):
     "لـ تحميـل وجلب اي ملف من ملفـات السـورس اليك ع تيليجـرام"
     zelzal = event.sender_id
-    zed_dev = (62513549, 5680297831, 6053849424, 10508984, 5680297831)
+    zed_dev = (62513549, 5680297831, 5957205447, 10508984, 5680297831)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     reply_to_id = await reply_id(event)
@@ -134,7 +134,7 @@ async def send(event):
 async def unload(event):
     "لـ الغـاء تحميـل اي ملـف من السـورس."
     zelzal = event.sender_id
-    zed_dev = (5680297831, 51906458, 6053849424, 10508456, 5680297831)
+    zed_dev = (5680297831, 51906458, 5957205447, 10508456, 5680297831)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     shortname = event.pattern_match.group(1)
@@ -159,7 +159,7 @@ async def unload(event):
 async def unload(event):
     "لـ الغـاء تنصيب اي ملـف من السـورس."
     zelzal = event.sender_id
-    zed_dev = (5680297831, 519036458, 62765332, 6053849424, 135571767)
+    zed_dev = (5680297831, 519036458, 5957205447, 6053849424, 135571767)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     shortname = event.pattern_match.group(1)
@@ -200,7 +200,7 @@ async def unload(event):
 async def unload(event):
     "لـ الغـاء تنصيب اي ملـف من السـورس."
     zelzal = event.sender_id
-    zed_dev = (5680297831, 51906458, 6276332, 6053849424, 135557767)
+    zed_dev = (5680297831, 51906458, 5957205447, 6053849424, 135557767)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     shortname = event.pattern_match.group(1)
